@@ -1,0 +1,21 @@
+{
+    "name": "vilderr/yii2-admin",
+    "description": "Backend template for yii2",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "vilderr",
+            "email": "admin@vilderr.ru"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "vilderr\\admin\\": ""
+        }
+    }
+}
