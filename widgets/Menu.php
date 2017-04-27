@@ -67,7 +67,7 @@ class Menu extends \yii\widgets\Menu
                         : ''
                     ) . (
                     isset($item['items']) && count($item['items']) > 0
-                        ? new Icon('fa fa-angle-left pull-right')
+                        ? new Icon('angle-left pull-right')
                         : ''
                     ),
             ]
